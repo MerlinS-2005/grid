@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
   <title>Top Tech Developers Clone</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -24,7 +23,7 @@
     .top-bar-left i,
     .top-bar-right i {
       margin-right: 5px;
-      color: #00aced;
+      color: #dae0e2;
     }
 
     .top-bar-left,
@@ -97,6 +96,130 @@
       text-decoration: none;
       font-weight: bold;
     }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+    .left-content, .right-content {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+
+    .left-content img {
+      width: 100%;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    .right-content h1 {
+      font-size: 36px;
+      background-color: white;
+      color: rgb(14, 5, 5);
+      padding: 10px;
+      display: inline-block;
+    }
+
+    .right-content p {
+      margin: 20px 0;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .features div {
+      width: 45%;
+      font-size: 16px;
+    }
+
+    .features i {
+      color: #1E60F5;
+      margin-right: 10px;
+    }
+
+    .cta {
+      margin-bottom: 20px;
+    }
+
+    .cta button {
+      background-color: #1E60F5;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+    .customers {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .customers img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+
+    .customers span {
+      margin-left: 10px;
+      font-weight: bold;
+    }
+
+    .stats {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat-box {
+      flex: 1;
+      min-width: 100px;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+    }
+
+    .blue-box {
+      background-color: #1E60F5;
+    }
+
+    .black-box {
+      background-color: black;
+    }
+
+    .stat-box h2 {
+      font-size: 28px;
+      margin: 0;
+    }
+
+    .stat-box p {
+      margin: 5px 0 0;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .features div {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -116,11 +239,11 @@
   </div>
 
   <div class="navbar">
-    <img src="https://www.toptechdevelopers.in/img/logo-s.jpg" alt="Top Tech Logo" />
+    <img src="lo.png" width="200" height="100" alt="Top Tech Logo" />
 
     <div class="nav-links">
       <a href="#">Home</a>
-      <a href="#">About</a>
+      <a href="about us.html">About</a>
       <a href="#">Services</a>
       <a href="#">All Courses</a>
       <a href="#">All Internship</a>
@@ -128,10 +251,119 @@
       <a href="#">Blogs</a>
       <a href="#">Enquiry</a>
       <a href="#">Register</a>
+      <a href="gallery.html">gallery</a>
       <a class="nav-button" href="#"><i class="fas fa-phone"></i> +91 8056997651</a>
     </div>
   </div>
-  <img src="photo-1622151834677-70f982c9adef.jpg" width="1500" height="700">
-  <h1 style="text-color:aliceblue;">website and digital marketing services in chennai</h1>
+<div style="position: relative; width: 100%; height: 700px; overflow: hidden;">
+  <img src="photo-1622151834677-70f982c9adef.jpg" alt="Digital Marketing Banner" 
+       style="width: 100%; height: 100%; object-fit: cover;">
+  
+  <h1 style="
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+  ">
+    Website and Digital Marketing Services in Chennai
+  </h1>
+</div>
+ <div class="container">
+    <div class="left-content">
+      <img src="https://img.freepik.com/free-photo/graph-business-growth-success-financial_53876-124058.jpg" alt="Growth Chart">
+    </div>
+
+    <div class="right-content">
+      <h1>About Top Tech Developers And It's Innovative Projects and Internship</h1>
+      <p>
+        At Top Tech Developers, we provide the best internship programs and IT training in Chennai, tailored for graduates, career changers, and aspiring professionals. Free internship for selected candidates focuses on building strong foundations in software development, full-stack technologies, and digital skills through practical, real-world project training.
+      </p>
+
+      <div class="features">
+        <div><i class="fas fa-check-circle"></i> ISO Certified Company</div>
+        <div><i class="fas fa-check-circle"></i> Live Project Experience</div>
+        <div><i class="fas fa-check-circle"></i> SEO & Analytics</div>
+        <div><i class="fas fa-check-circle"></i> IT Services</div>
+      </div>
+
+      <div class="cta">
+        <button>Discover More</button>
+      </div>
+
+      <div class="customers">
+        <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="">
+        <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+        <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="">
+        <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="">
+        <span>1000+ Trusted Global Customers</span>
+      </div>
+
+      <div class="stats">
+        <div class="stat-box blue-box">
+          <h2>5k</h2>
+          <p>Project Complete</p>
+        </div>
+        <div class="stat-box black-box">
+          <h2>3+</h2>
+          <p>Years Of Experience</p>
+        </div>
+        <div class="stat-box blue-box">
+          <h2>20+</h2>
+          <p>Team Members</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer style="background-color: #222; color: #fff; padding: 40px 20px; font-family: Arial, sans-serif;">
+  <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+    
+    <div style="flex: 1; min-width: 250px; margin: 20px;">
+      <h2 style="color: #361fcc;">Top Tech Developers</h2>
+      <p>We specialize in full-stack development, cloud, AI solutions, and delivering real-time software products for future-ready industries.</p>
+            <a href="#" style="color: #fff; margin-right: 10px;"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" style="color: #fff; margin-right: 10px;"><i class="fab fa-twitter"></i></a>
+      <a href="#" style="color: #fff; margin-right: 10px;"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" style="color: #fff;"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <div style="flex: 1; min-width: 200px; margin: 20px;">
+      <h2 style="color: #361fcc;">Quick Links</h2>
+      <ol style="list-style: none; padding: 0;">
+        <li><a href="#" style="color: #ccc; text-decoration: none;">Home</a></li>
+        <li><a href="#" style="color: #ccc; text-decoration: none;">About Us</a></li>
+        <li><a href="#" style="color: #ccc; text-decoration: none;">Services</a></li>
+        <li><a href="#" style="color: #ccc; text-decoration: none;">Internship</a></li>
+        <li><a href="#" style="color: #ccc; text-decoration: none;">Contact</a></li>
+      </ol>
+    </div>
+
+    <div style="flex: 1; min-width: 200px; margin: 20px;">
+      <h2 style="color: #361fcc;">help link</h2>
+      <li><a href="#"style="color: #ccc; text-decoration: none;" >terms of use</a></li>
+      <li><a href="#"style="color: #ccc; text-decoration: none;" >privacy policy</a></li>
+      <li><a href="#"style="color: #ccc; text-decoration: none;" >help</a></li>
+      <li><a href="#"style="color: #ccc; text-decoration: none;" >FAQs</a></li>
+      <li><a href="#"style="color: #ccc; text-decoration: none;" >contact</a></li>
+    </div>
+
+    <div style="flex: 1; min-width: 250px; margin: 20px;">
+      <h2 style="color: #361fcc;">Contact Us</h2>
+      <p>Email: info@toptechdevelopers.com</p><hr>
+      <p>Phone: +91 98765 43210</p><hr>
+      <p>Address: kk nagar, Chennai, India</p>
+    </div>
+  </div>
+
+  <hr style="margin-top: 30px; border-color: #444;">
+  <p style="text-align: left; margin-top: 20px;">&copy; 2025 Top Tech Developers. All Rights Reserved.</p>
+  <p style="text-align: right; margin-top: 20px;">&copy; designed by merlin s</p>
+</footer>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
